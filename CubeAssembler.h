@@ -22,7 +22,6 @@ private:
     std::atomic<long> checkedPaths{0};
     std::atomic<int> foundCount{0};
 
-    // CubeAssembler.h içinde private kısmına ekle:
     void searchWithLookup(const std::vector<Layer> &layers,
                           const std::vector<std::vector<int>> &lookup,
                           int layerStartIdx,
