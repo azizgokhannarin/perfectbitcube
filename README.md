@@ -43,7 +43,7 @@ Layer 7 (base 232): 232 209 163  71 142  29  58 116
 
 ## 🔬 Algorithm Overview
 
-### Version 7.0: Shift Rotation + Z-Axis Validation
+### Shift Rotation + Z-Axis Validation
 
 The breakthrough came from combining three key innovations:
 
@@ -92,7 +92,7 @@ These rules reduce search space from ~17 billion to tractable millions.
 
 ---
 
-## 🏗️ Architecture (v7.0)
+## 🏗️ Architecture
 
 Core components:
 
@@ -274,25 +274,6 @@ Set 7 (base: XXX): [8 bytes]
 - [ ] Finding "rare" cubes with special symmetries
 - [ ] Integration with SAT/SMT solvers
 
----
-
-## 📝 Changelog
-
-### v7.0 - FINAL (February 2, 2026)
-- ✅ **Added Z-axis validation** - Fixed false positives from v6.0
-- ✅ **Found first perfect cube** - Proved existence
-- ✅ **Implemented find-first mode** - Default stops at first discovery
-- ✅ **Added --find-all flag** - For exhaustive search
-- ✅ **Real-time progress reporting** - ETA + speed metrics
-- ✅ **Enhanced output formatting** - Beautiful summary display
-
-### v6.0 - Initial Release
-- Shift rotation algorithm
-- Nested permutation search
-- Basic filter rules
-- ❌ **Missing Z-axis validation** (discovered and fixed in v7.0)
-
----
 
 ## 💡 How to Contribute
 
